@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_symptoms"
+            android:icon="@drawable/ic_symptoms"
+            android:title="Symptoms of Depression" />
+        <item android:id="@+id/nav_site"
+            android:icon="@drawable/ic_site"
+            android:title="Help a Friend" />
+
+        <item android:id="@+id/nav_excercise"
+            android:icon="@drawable/ic_excercise"
+            android:title="VR Excercise" />
+        <item android:id="@+id/nav_meditate"
+            android:icon="@drawable/ic_meditate"
+            android:title="VR Meditate" />
+
+
+
+
+
+
+    </group>
+
+
+
+    <item android:title="More">
+        <menu>
+            <item android:id="@+id/nav_news"
+                android:icon="@drawable/ic_dp"
+                android:title="About Depression" />
+
+        </menu>
+    </item>
+
+
+</menu>
